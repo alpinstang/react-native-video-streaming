@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "VoD",
+    "slug": "VoD",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "icon": "./assets/video-play-icon.png",
+    "splash": {
+      "image": "./assets/splash-vod.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.hatboysoftware.findr",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDRRcuQPFmxPlgSXi5INp7xHGWc3Z_BrYQ"
+        }
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hatboysoftware.findr",
+      "buildNumber": "1.0.0"
+    }
+  }
+}
